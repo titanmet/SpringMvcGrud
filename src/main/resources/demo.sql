@@ -65,3 +65,6 @@ SELECT Actor.name, Move.name FROM Actor
                                       JOIN actor_move on actor.actor_id = actor_move.actor_id
                                       JOIN move on actor_move.move_id = move.move_id;
 
+
+alter table Person add column address varchar;
+
